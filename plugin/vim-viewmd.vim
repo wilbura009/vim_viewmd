@@ -7,8 +7,7 @@ endif
 
 function! Vim_Markdown_Preview()
   let b:curr_file = expand('%:p')
-  let b:cmd = g:vmp_script_path . '/viewmd/viewmd ' . b:curr_file
-
+  let b:cmd = g:vmp_script_path . '/viewmd ' . b:curr_file
   call system(b:cmd . ' &')
 endfunction
 
