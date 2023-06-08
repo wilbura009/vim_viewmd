@@ -9,7 +9,7 @@ VimPlug
 1. Add to `.vimrc`
 
     ```txt
-    Plug https://github.com/wilbura009/vim_viewmd.git
+    Plug 'wilbura009/vim_viewmd'
     ```
 
 2. In vim 
@@ -20,3 +20,6 @@ VimPlug
 
 ## Mappings
 
+The following are the default mappings. These can be remapped in your `.vimrc`.
+
+- `g:vim_markdown_preview_hotkey='<C-l>'`
