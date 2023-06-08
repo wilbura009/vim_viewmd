@@ -1,6 +1,6 @@
 # vim_viewmd
 
-A vim plugin for the [viewmd](https://github.com/wilbura009/gtk4_playground/blob/master/proj/viewmd/README.md) application.
+A vim plugin for the [viewmd](https://github.com/wilbura009/viewmd) application.
 
 ## Installation
 
