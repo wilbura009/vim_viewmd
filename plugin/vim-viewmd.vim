@@ -36,7 +36,7 @@ function! Vim_Markdown_Preview()
     echomsg l:msg_inst
     echo "\n"
 
-    call system('cd ' . g:viewmd_dir . ' && make install-noroot && make cleanall')
+    call system('cd ' . g:viewmd_dir . ' && make install-home && make cleanall')
     echomsg l:msg_inst_done
     echomsg l:msg_clean
     call system('rm -rf ' . g:viewmd_dir)
