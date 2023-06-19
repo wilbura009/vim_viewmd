@@ -2,6 +2,8 @@
 
 A vim plugin for the [viewmd](https://github.com/wilbura009/viewmd) application.
 
+<img src="vim_viewmd-preview.gif" alt="vim_viewmd-preview" width="50%"/>
+
 ## Installation
 
 VimPlug
