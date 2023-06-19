@@ -2,7 +2,7 @@
 
 A vim plugin for the [viewmd](https://github.com/wilbura009/viewmd) application.
 
-<img src="vim_viewmd-preview.gif" alt="vim_viewmd-preview" width="50%"/>
+<img src="vim_viewmd-preview.gif" alt="vim_viewmd-preview" width="75%"/>
 
 ## Installation
 
@@ -19,6 +19,11 @@ VimPlug
     ```txt
     :PlugInstall
     ```
+
+## Usage
+
+Open the file you wish to preview, write some changes and save the file. The
+view is updated on save.
 
 ## Mappings
 
